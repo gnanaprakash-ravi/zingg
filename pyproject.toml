@@ -1,0 +1,25 @@
+version = "0.4.0"
+name = "zingg"
+authors = [
+    {name = "Zingg.AI", email = "sonalgoyal4@gmail.com"}
+]
+description = "Zingg Entity Resolution, Data Mastering and Deduplication."
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+        "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "pandas",
+    "seaborn",
+    "matplotlib",
+    "sphinx",
+    "sphinx-rtd-theme",
+    "pyspark"
+]
+
+
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-scm", "m2w64-toolchain"]
+build-backend = "setuptools.build_meta"
